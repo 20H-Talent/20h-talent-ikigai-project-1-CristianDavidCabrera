@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/ftv_cotillo.jpg') no-repeat top center ;
+  background: url('images/ftv_cotillo.jpg') no-repeat top center ; /* Hay que modificarla. Pesa mucho. No puede pesar más de un 1MB*/
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -114,7 +114,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 5px;
   text-align: center;
-
+  display:none; /* Disable, we are working to improve this funtionality*/
 }
 .card_image:hover{
   border-color: #ff99ff;
